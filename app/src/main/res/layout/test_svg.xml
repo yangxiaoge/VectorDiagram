@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--<com.example.administrator.myapplication.IconView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="&#xe61f;"
+        android:textColor="#f00"
+        android:textSize="200sp" />
+
+    <com.example.administrator.myapplication.IconView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="&#xe61f;"
+        android:textColor="#f0f"
+        android:textSize="200sp" />-->
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/ic_alipay" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_alipay" />
+
+    <!--    <ImageView
+            android:src="@drawable/svg_ex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+</LinearLayout>
+
+
