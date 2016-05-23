@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">VectorDiagram</string>
+    <string name="icons">&#xe60f;&#xe611;&#xe612;&#xe613;&#xe634;&#xe624;</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

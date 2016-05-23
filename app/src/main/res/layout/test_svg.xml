@@ -5,7 +5,41 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <!--<com.example.administrator.myapplication.IconView
+    <!--@drawable/ic_alipay 是svg图片生成的.xml文件 ( AS-右键drawable-new-Vector Assert) -->
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_alipay" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_alipay" />
+
+    <!--下面有两种 加载 iconfont方法-->
+    <!-- http://www.iconfont.cn/help/iconuse.html 阿里妈妈网站提供的, 看连接有教程 -->
+    <!-- 需要在代码中加载 asset目录下的 字体font-->
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/icons"
+        android:textColor="@color/colorAccent" />
+    <!-- 图片大小 就是 textSize -->
+    <!--自定义veiw, 直接把asset目录下的 字体font加载了-->
+    <com.example.administrator.myapplication.IconfontView
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="&#xe611;"
+        android:textColor="#FF03BAF7"
+        android:textSize="50sp" />
+
+
+    <!--<com.example.administrator.myapplication.IconfontView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -13,27 +47,13 @@
         android:textColor="#f00"
         android:textSize="200sp" />
 
-    <com.example.administrator.myapplication.IconView
+    <com.example.administrator.myapplication.IconfontView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="&#xe61f;"
         android:textColor="#f0f"
         android:textSize="200sp" />-->
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="42dp"
-        android:layout_height="42dp"
-        android:background="@drawable/ic_alipay" />
-
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_alipay" />
-
-    <!--    <ImageView
-            android:src="@drawable/svg_ex"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />-->
 </LinearLayout>
 
 
